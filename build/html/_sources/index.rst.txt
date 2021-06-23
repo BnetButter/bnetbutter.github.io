@@ -19,8 +19,15 @@ Now I'm in university pursuing degrees in Computer Science and Applied Mathemati
    guides/index
 
 
+Contact
+=======
 
- 
+* zlnh4@umsystem.edu
+* 516-524-1521
+* https://gitlab.com/bnetbutter
+* https://github.com/bnetbutter
+
+
 Indices and tables
 ==================
 
