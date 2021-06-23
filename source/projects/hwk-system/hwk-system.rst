@@ -4,7 +4,7 @@ HWK System
 This was my first first real-world programming project. I wrote an entire
 Point-of-Sale system for my restaurant business.
 
-.. image:: _static/cover.jpeg
+.. image:: https://i.imgur.com/R5qG7ci.jpeg
 
 The system comprised of 3 Raspberry Pi's connected over WLAN. The POS controlled
 the cash drawer and card reader. It sent order info to the cook station (below)
