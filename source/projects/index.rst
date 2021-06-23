@@ -9,6 +9,7 @@ Projects
     
     hwk-system/hwk-system
     smart-mirror/index
+    auto-host/index
 
 .. toctree::
     :maxdepth: 2
