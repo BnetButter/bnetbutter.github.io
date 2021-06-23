@@ -6,7 +6,7 @@
 About me
 ========
 
-.. image:: https://i.imgur.com/34aN9OP.gif
+.. image:: https://i.imgur.com/CqJTPs6.gif
 
 I'm a self taught programmer. I first learned Python through Code Academy. Then I taught myself C, Javascript, C++, Bash, and Rust.
 Now I'm in university pursuing degrees in Computer Science and Applied Mathematics at Missouri S&T.
