@@ -33,6 +33,23 @@
             
   <div class="section" id="py2cfg">
 <h1>py2cfg<a class="headerlink" href="#py2cfg" title="Permalink to this headline">¶</a></h1>
+<p>py2cfg generates control flow graph from python code. It’s not my project, but I
+did make substantial improvements. Generating graphs as you type was one of the
+features I added.</p>
+<p>I created a VSCode extension that requested a CFG to be generated based on the
+current file and cursor location. The CFG data was stored as pickled bytes in
+a SQL database. Every time the cursor moved, the CFG was pulled and a graph generated.</p>
+<img alt="https://i.imgur.com/2JreaSi.gif" src="https://i.imgur.com/2JreaSi.gif" />
+<p>Another feature I added was interfacing py2cfg with pudb3, a commandline debugger
+for python. I wanted to be able to do live tracing of executed control flow paths.
+Whenever the user stepped into a function, a process fork was created. The child process
+continued to run, while the parent process was paused on step. While the child process
+was running, it reported the lines that were being executed back to the parent process.
+The parent process then highlighted all the blocks that were visited by the child.</p>
+<p>That’s the basic idea at least. Implementing it took me the better half of my
+first semester at college. But the end result was this</p>
+<img alt="https://py2cfg.readthedocs.io/en/latest/_static/pudb3-py2cfg.gif" src="https://py2cfg.readthedocs.io/en/latest/_static/pudb3-py2cfg.gif" />
+<p>Read the <a class="reference external" href="https://py2cfg.readthedocs.io/en/latest/">py2cfg</a> documentation for more info.</p>
 </div>
 
 
@@ -55,7 +72,7 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Projects</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../hwk-system/hwk-system.html">HWK System</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../smart-mirror/smart-mirror.html">Smart Mirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../smart-mirror/index.html">Smart Mirror</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../rolla-quest-3d/rolla-quest-3d.html">Rolla Quest 3D</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">py2cfg</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../grade.sh/grade.sh.html">grade.sh</a></li>
