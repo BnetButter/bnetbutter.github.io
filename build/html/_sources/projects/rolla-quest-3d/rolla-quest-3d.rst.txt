@@ -4,11 +4,11 @@ Rolla Quest 3D
 Rolla Quest was the final project for our freshman programming class. It was a 2D top down game where 'G' had to avoid the virus and pick up masks to survive. 
 The original was something like this
 
-.. image:: _static/2d.gif
+.. image:: https://i.imgur.com/DIcOHSS.gif
 
 But why stop at 2D? Why not 3D using the old DOOM rendering technique?     
 
-.. image:: _static/3d-1.gif
+.. image:: https://imgur.com/a/cNWNJzz
 
 It's not real 3D because it ray casts only on the 2D plane. Y shearing gives the illusion of
 being able to look up and down. In order to get a playable framerate, I wrote a virtual GPU engine to process the frame in parallel. A buffer is created in shared memory.
