@@ -7,7 +7,7 @@ pages:
   stage: deploy
   script:
   - apt-get update
-  - apt-get install python3-sphinx
+  - apt-get install -y python3-sphinx
   - make html
   - cp -R -T build/html public
   artifacts:
