@@ -4,7 +4,7 @@
 pages:
   stage: deploy
   script:
-  - echo nothing...
+  - cp -R -T build/html public
   artifacts:
     paths:
     - public
