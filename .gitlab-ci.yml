@@ -7,7 +7,7 @@ pages:
   - echo nothing...
   artifacts:
     paths:
-    - public
+    - public/html
   only:
   - master
  
