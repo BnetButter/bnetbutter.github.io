@@ -8,7 +8,7 @@ The original was something like this
 
 But why stop at 2D? Why not 3D using the old DOOM rendering technique?     
 
-.. image:: https://imgur.com/a/cNWNJzz
+.. image:: https://i.imgur.com/wIJZKyI.gif
 
 It's not real 3D because it ray casts only on the 2D plane. Y shearing gives the illusion of
 being able to look up and down. In order to get a playable framerate, I wrote a virtual GPU engine to process the frame in parallel. A buffer is created in shared memory.
