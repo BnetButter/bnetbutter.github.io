@@ -8,7 +8,7 @@ Projects
     :caption: Pre-University Projects:
     
     hwk-system/hwk-system
-    smart-mirror/smart-mirror
+    smart-mirror/index
     
 .. toctree::
     :maxdepth: 2
