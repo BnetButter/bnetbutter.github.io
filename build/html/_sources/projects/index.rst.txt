@@ -5,11 +5,11 @@ Projects
 
 .. toctree::
     :maxdepth: 2
-    :caption: Pre-University Projects:
+    :caption: Non-University Projects:
     
     hwk-system/hwk-system
     smart-mirror/index
-    
+
 .. toctree::
     :maxdepth: 2
     :caption: University Projects:
