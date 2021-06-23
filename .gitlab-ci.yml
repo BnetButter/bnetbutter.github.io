@@ -4,9 +4,10 @@
 pages:
   stage: deploy
   script:
-  - echo 'Nothing to do...'
+  - make html
   artifacts:
     paths:
-    - public
+    - public/html
   only:
   - master
+ 
