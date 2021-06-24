@@ -16,7 +16,7 @@ Now I'm in university pursuing degrees in Computer Science and Applied Mathemati
    :caption: Contents:
   
    projects/index
-   guides/index
+  
 
 
 Contact
