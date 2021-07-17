@@ -24,11 +24,15 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
       # Runs a set of commands using the runners shell
-      - name: build page
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y python3-sphinx
-          make html
-          cp -R -T build/html docs
+      - name: apt-get update
+        run: sudo apt-get update
+
+      - name: install sphinx
+        run: sudo apt-get install -y python3-sphinx
+        
+      - name: build html
+        run: make html
+      
+      - name: copy to docs
+        run: cp -R -T build/html docs
