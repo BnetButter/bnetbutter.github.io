@@ -36,3 +36,12 @@ jobs:
       
       - name: copy to docs
         run: cp -R -T build/html docs
+      
+      - name: artifact
+        uses: actions/upload-artifact@v2
+        with: 
+          name: docs
+          path: docs
+          retention-days: 90
+      
+      

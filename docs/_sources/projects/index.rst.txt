@@ -1,0 +1,23 @@
+Projects
+===========
+
+
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Non-University Projects:
+    
+    hwk-system/hwk-system
+    smart-mirror/index
+    auto-host/index
+
+.. toctree::
+    :maxdepth: 2
+    :caption: University Projects:
+    
+    rolla-quest-3d/rolla-quest-3d
+    py2cfg/py2cfg
+    grade.sh/grade.sh
+
+    
+    
