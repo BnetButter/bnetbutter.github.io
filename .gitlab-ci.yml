@@ -9,7 +9,7 @@ pages:
   - apt-get update
   - apt-get install -y python3-sphinx
   - make html
-  - cp -R -T build/html doc
+  - cp -R -T build/html docs
   artifacts:
     paths:
     - docs
